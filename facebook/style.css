@@ -1,0 +1,139 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #fff;
+}
+
+.container {
+    background: #f0f2f5;
+    padding-top: 72px;
+    padding-bottom: 112px;
+    
+    
+}
+
+.content {
+    width: 980px;
+    margin: 20px auto;
+
+}
+
+.content > div {	
+        display: inline-block;
+        vertical-align: top;
+}
+
+.left-content{
+    width: 580px;
+    padding-right: 32px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 200px;
+    line-height: 0em;
+    height: 106px;
+    margin: -21px;
+}
+
+.left-content p {
+    line-height: 0.1em;
+}
+
+.left-content .h1log {
+    font-size: 1.9em;
+}
+
+.click {
+    font-size: 1.1em;
+    color: grey;
+}
+
+.card {
+    background: #fff;
+    width: 396px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    height:350px;
+}
+.form {
+    display: grid;
+    grid-row-gap: 1em;
+}
+.form input {
+   outline: none;
+   width: 100%;
+   padding: 14px 16px;
+   box-sizing: border-box;
+   border: 1px solid #dddfe2;
+   border-radius: 6px;
+   margin: 5px 0;
+   font-size: 17px;
+}
+
+.login-btn {
+    width: 100%;
+    align-items: center;
+    outline: none;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-size: 20px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+}
+
+.forget-pass a {
+    text-decoration: none;
+    color: #1877f2;
+    display: grid;
+    justify-content: center;
+    padding: 6px;
+}
+
+.line {
+    border-bottom: 1px solid #dddfe2;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 100%;
+}
+
+.create-btn {
+    width: 45%;
+    align-items: center;
+    outline: none;
+    padding: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.create-pg{
+    color: #000;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0px;
+}
+
+.create-pg > a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
