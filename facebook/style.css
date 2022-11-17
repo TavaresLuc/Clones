@@ -27,6 +27,7 @@ body{
     width: 580px;
     padding-right: 32px;
     box-sizing: border-box;
+    disply: flex;
 }
 
 .logo{
@@ -84,6 +85,29 @@ body{
     justify-content: center;
     color: #474242;
 
+}
+
+.more-btn {
+    margin-top: 30px;
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border-radius: 6px;
+    padding-bottom: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.more-btn:hover {
+    box-shadow:2px 2px 4px 2px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    transition: 0.3s;
+}
+
+.more-btn .icon { 
+    width:42px;
 }
 
 .card {
