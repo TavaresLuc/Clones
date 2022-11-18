@@ -106,12 +106,8 @@ body{
     margin-left: 180px;
     margin-top: -210px;
     border: solid #d9dadb 1px ;
-    background: #f0f2f5;
+    background: #f5f6f7;
        
-}
-
-.more-btn2 {
-
 }
 
 .add {
@@ -241,4 +237,56 @@ body{
     text-decoration: none;
     font-weight: 600;
     color: #000;
+}
+
+.f-lg-footer{
+    padding-top: 80px;
+    width: 980px;
+    margin: 30px auto;
+    background-color: 
+}
+
+.f-lg-footer > ul{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.f-lg-footer > ul > li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.f-lg-footer > ul > li > a{
+    text-decoration: none;
+    color: #777;
+    font-size: 12px;
+}
+
+.fix-m-header{
+    background: #fffbe2;
+    color: #3b5998;
+    text-align: center;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    display: none;
+}
+
+.fix-m-header > span,
+.fix-m-header > img{
+    vertical-align: top;
+}
+
+.fix-m-header > span{
+    line-height: 50px;
+}
+
+.fix-m-header > img{
+    position: relative;
+    top: 10px;
+}
+
+.m-footer{
+    display: none;
 }
