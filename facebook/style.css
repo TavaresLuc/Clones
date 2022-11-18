@@ -1,8 +1,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    background: #fff;
+    background: red;
+    
 }
+
 
 .container {
     background: #f0f2f5;
@@ -19,15 +21,18 @@ body{
 }
 
 .content > div {	
-        display: inline-block;
-        vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
+        
 }
 
 .left-content{
     width: 580px;
     padding-right: 32px;
     box-sizing: border-box;
-    disply: flex;
+    display: flex;
+    align-items: stretch;
+    
 }
 
 .logo{
@@ -90,7 +95,7 @@ body{
 .more-btn {
     margin-top: 30px;
     width: 160px;
-    height: 160px;
+    height: 180px;
     background-color: white;
     border-radius: 6px;
     padding-bottom: 3px;
@@ -98,6 +103,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: flex-end;
+    
     
 }
 
@@ -148,6 +155,11 @@ body{
     background-color: #1877f2;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color:  #166fe5;
 }
 
 .forget-pass a {
@@ -177,11 +189,16 @@ body{
     background-color: #42b72a;
     color: white;
     font-weight: bold;
-    
+    cursor: pointer;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-bottom: 10px;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+    transition: 0.3s;
 }
 
 .create-pg{
@@ -197,4 +214,3 @@ body{
     font-weight: 600;
     color: #000;
 }
-
